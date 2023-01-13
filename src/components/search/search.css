@@ -1,0 +1,62 @@
+.box{
+
+	width: 500px;
+
+	height: 50px;
+
+	background-color: white;
+
+	border-radius: 30px;
+
+	display: flex;
+
+	align-items: center;
+
+	padding: 20px;
+
+    -webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+
+}
+
+@media screen and (max-width: 600px){
+	.box{
+		width: 400px;
+		margin-right: 50px;
+	}
+}
+
+
+
+.box > input{
+
+	flex: 1;
+
+	height: 40px;
+
+	border: none;
+
+	outline: none;
+
+	font-size: 18px;
+
+	padding-left: 10px;
+
+
+}
+
+.search-icon:hover{
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.voice-icon:hover{
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.rms_img:hover{
+    cursor: pointer;
+    transition-duration: 0.3s;
+}

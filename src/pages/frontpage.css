@@ -1,0 +1,27 @@
+.front-page-wrap{
+    height: 100vh;
+    
+    
+}
+
+
+.search-wrap{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-wrap{
+    position: relative;
+    min-height: 60vh;
+}
+
+.carousel-inner{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+

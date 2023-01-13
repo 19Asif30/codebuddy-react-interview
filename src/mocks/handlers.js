@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import { rest } from 'msw';
 import { isEmpty } from 'lodash';
 import faker from 'faker';
@@ -9,7 +8,6 @@ const API_URL = 'https://codebuddy.review';
 const isPrime = (n, i = 2) => {
   if (n === 0 || n === 1) return false;
   if (n === i) return true;
-
   if (n % i === 0) return false;
 
   return isPrime(n, i + 1);

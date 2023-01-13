@@ -1,0 +1,21 @@
+
+
+  .ham-wrap{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    gap: 10px;
+  }
+
+  .ham-wrap p{
+    margin-top: 14px;
+  }
+
+  .code-box-demo .ant-switch {
+    margin-bottom: 8px;
+  }
+
+  .toggle-switch{
+    display: flex;
+    justify-content: space-between;
+  }
